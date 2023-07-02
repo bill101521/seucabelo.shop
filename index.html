@@ -1,42 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link rel="preload" href="https://scripts.converteai.net/d0dea0fe-8b37-41fb-afa9-0a2bdfb972d8/players/63f51d516c36d100093e82e7/player.js" as="script">
-<link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
-<link rel="preload" href="https://images.converteai.net/d0dea0fe-8b37-41fb-afa9-0a2bdfb972d8/players/63f51d516c36d100093e82e7/thumbnail.jpg" as="image">
-<link rel="preload" href="https://cdn.converteai.net/d0dea0fe-8b37-41fb-afa9-0a2bdfb972d8/63f51d46194dfe000c2980ad/playlist.m3u8" as="fetch">
-<link rel="dns-prefetch" href="https://cdn.converteai.net">
-<link rel="dns-prefetch" href="https://scripts.converteai.net">
-<link rel="dns-prefetch" href="https://images.converteai.net">
-<link rel="dns-prefetch" href="https://api.vturb.com.br">
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./assets/css/com.css">
-
-    <!-- Título da Página -->
-    <title>Reconstrução do Cabelo</title>
+<title>Responder</title>
+<head>
     
-    <style type="text/css">
-      header {
-  color: black;
-  background-image: url("assets/img/bg.jpeg");
-  background-color: white;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-    </style>
-    
-    <!-- Meta Pixel Code -->
+<!-- Meta Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -46,437 +13,152 @@
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '457534892974681');
       fbq('init', '');
-      fbq('track', 'ViewContent');
+      fbq('init', '');
+      fbq('init', '');
+      fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=cód.aqui&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->    
-  </head>
-  <body>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="shortcut icon" href="favicon.jpg">
+<style>
+    header {
+      background:"headerbg2.png";
+      background-repeat: no-repeat;
+    }
+    @font-face {
+      font-family: Gotham Rounded;
+      src: url("font.otf") format("opentype");
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+      font-family: Gotham Rounded;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      background: url("fundo.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .container {
+      width: 700px;
+      max-width: 90%;
+    }
+    .black {
+      background-color: black;
+      padding: 10px;
+      text-align: center;
+      border-radius: 20px;
+      box-shadow: 0 0 10px 2px black;
+    }
+    .answer {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      gap: 10px;
+    }
+    @media (max-width: 991px) {
+      .answer {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 10px;
+      }
+    }
+    .btn {
+      border-radius: 10px;
+      padding: 5px 10px;
+      font-size: 30px;
+      background-color: #0D9B00;
+      outline: none;
+      text-decoration: none;
+      color: white;
+    }
+    .black h1 {
+      color: yellow;
+    }
+    .black p {
+      font-size: 18px;
+      color: white;
+    }
+    .hide {
+      display: none;
+    }
+  </style>
+</head>
+<body>
 
-     <header class="py-4">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-    
-
-
-            <!-- Headline -->
-            </style>
-<div class="headline-1658581343654lMpslJ-element headline">
-<h1>
-DEMATOLOGISTA REVELA&nbsp;<span style="background-color:#ffff00"><span style="color:#ff0000">ÓLEO CASEIRO CHINÊS</span></span>&nbsp;CAPAZ DE&nbsp;<span style="color:#ff0000">REVERTER A CALVÍCIE</span>&nbsp;<br>EM SOMENTE&nbsp;<span style="background-color:#ffff00">4 semanas.</span>
-</h1>
+<div class="container">
+<div class="black">
+<div id="primeira">
+<div class="question">
+<h1>Pregunta 1</h1>
+<p>¿Tienes más de 18 años?</p>
 </div>
-
-            <!-- VSL -->
-            <div id="vid_63f51d516c36d100093e82e7" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_63f51d516c36d100093e82e7" src="https://images.converteai.net/d0dea0fe-8b37-41fb-afa9-0a2bdfb972d8/players/63f51d516c36d100093e82e7/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_63f51d516c36d100093e82e7" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_63f51d516c36d100093e82e7">var s=document.createElement("script");s.src="https://scripts.converteai.net/d0dea0fe-8b37-41fb-afa9-0a2bdfb972d8/players/63f51d516c36d100093e82e7/player.js",s.async=!0,document.head.appendChild(s);</script>
-
-
-
-            <!-- Botão 1 -->
-            <div id="cta1" class="mt-4 d-none">
-              <a href="https://pay.kiwify.com.br/dj2J7Si" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">QUERO ELIMINAR A CALVÍCIE</span>
-                <span class="span-btn2">(Adicionar ao Carrinho)</span>
-              </a>
-            </div>
+<div class="answer">
+<button class="btn" onclick="segunda()">SÍ</button>
+<button class="btn" onclick="segunda()">NO</button>
+</div>
+</div>
+<div id="segunda" class="hide">
+<div class="question">
+<h1>Pregunta 2</h1>
+<p>¿Usted es hombre o mujer?</p>
+</div>
+<div class="answer">
+<button class="btn" onclick="terceira()">HOMBRE</button>
+<button class="btn" onclick="terceira()">MUJER</button>
+</div>
+</div>
+<div id="terceira" class="hide">
+<div class="question">
+<h1>Pregunta 3</h1>
+<p>El siguiente video tiene un límite para que muy pocas personas lo vean al mismo tiempo... ¿Piensas verlo hasta el final?</p>
+</div>
+<div class="answer">
+<button class="btn" onclick="redirect()">SÍ</button>
+<button class="btn" onclick="redirect()">NO</button>
+</div>
+</div>
+</div>
+<p style="text-align: center; font-weight: bold;">©2023 / Todos los derechos reservados.</p>
+</div>
+<script>
+    function segunda() {
+      document.getElementById("primeira").classList.add("hide")
+      document.getElementById("segunda").classList.remove("hide")
+    }
+    function terceira() {
+      document.getElementById("segunda").classList.add("hide")
+      document.getElementById("terceira").classList.remove("hide")
+    }
+    function redirect() {
+      location.href = "https://encurtador.com.br/"
+    }
+  </script>
+    <p style="text-align: center; font-color: black;">WMV Digital CNPJ: 39.782.253/0001-08 - Cda. Mayorazgo de Solís 21, Xoco, Benito Juárez, 03580 Ciudad de México, CDMX, México</p>
+  </div><script type="text/javascript" src="script.js"></script>
+    <!-- Termos de Uso e Política de Privacidade -->
+            <div class="text-white mt-4"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
           </div>
         </div>
       </div>
     </header>
-
-    <section class="comments py-4">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="fb-comments" style="margin-top: 5px;">
-              <div class="fb-comments-header">
-                <span>21 comentarios</span>
-              </div>
-              <div class="fb-comments-wrapper" id="2">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/h6.jpeg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>José Silva</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Eu sou bastante cético com relação a métodos naturais, mas este parece ter algo diferente. Assisti ao vídeo explicativo e fiquei impressionado com os resultados apresentados. Definitivamente vou dar uma chance.</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>8</likes>
-                        
-                        <date>4 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="3">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/h4.jpeg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Vitor Pereira</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Eu fiz tudo o que fala no vídeo e já comecei a ter os primeiros resultados em menos de 1 mês. Muita gratidão🙏</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>9</likes>
-                        
-                        <date>5 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="4">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/h1.jpeg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Mariano Martins</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Finalmente, algo que promete resolver o problema da calvície de forma natural! Assisti ao vídeo e gostei muito da abordagem do método. Estou ansioso para ver os resultados.</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>11</likes>
-                        
-                        <date>12 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="5">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m1.jpeg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Juliana Castro</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Assisti pra fazer pro meu marido pq ele é cabeça dura e não acredita nem tem paciência, depois de ele ver o cabelo começar a crescer ficou feliz demais rsrsrs. Obrigada😘</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>15</likes>
-                        
-                        <date>19 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="6">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m12.jpeg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Isabella Lopes</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Meu cabelo é bem falhado na frente, minha testa tava ficando cada vez maior. Eu comecei a fazer tudo certinho do jeito q ensinam no vídeo e graças a Deus vejo que vou conseguir resolver esse problema. Obrigada por disponibilizar o conhecimento😘😘😘</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>17</likes>
-                        
-                        <date>24 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="7">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/h8.jpeg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Roberto Gomes</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Eu tinha desistido de encontrar algo que realmente funcionasse para a calvície, mas este método natural parece ser a solução. Assisti ao vídeo e fiquei bastante animado com as possibilidades.</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>18</likes>
-                        
-                        <date>26 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="9">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m9.jpeg">
-                      </td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Rafael Souza</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Eu sempre acreditei em abordagens naturais para a saúde, por isso fiquei bastante interessado neste método. Assisti ao vídeo e gostei muito das informações apresentadas.</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>22</likes>
-                        
-                        <date>39 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <button class="fb-comments-loadmore" onclick="javascript:loadMore();">Carregar mais 5 comentários</button>
-              <div style="display:none" id="more">
-                <div class="fb-comments-wrapper">
-                  <table class="fb-comments-comment" id="10">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/h3.jpeg">
-                        </td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Felipe Guerra</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">Eu tive uma boa impressão ao assistir ao vídeo explicativo sobre este método natural que cura a calvície. Depois de experimentá-lo foi batata. Cabelo crescendo bastante viu. Excelente!</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>41</likes>
-                          
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper" id="11">
-                  <table class="fb-comments-comment">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/h5.jpeg">
-                        </td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Luan Flores</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">Eu já testei muitos produtos e nenhum deles realmente funcionou. Mas depois de assistir ao vídeo explicativo sobre este método natural, estou confiante de que ele pode ser diferente.</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>40</likes>
-                          
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper" id="12">
-                  <table class="fb-comments-comment">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/h7.jpeg">
-                        </td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Daniel Costa</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">Eu sou sempre cauteloso com relação a tudo que prometem curar a calvície, mas este parece ser diferente. Assisti ao vídeo e gostei muito das informações.</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>47</likes>
-                          
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper" id="13">
-                  <table class="fb-comments-comment">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/m16.jpeg"></td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Auricélia Dias</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">Que maravilhaaaaa🥰</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>50</likes>
-                          
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper">
-                  <table class="fb-comments-comment" id="14">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/m7.jpeg">
-                        </td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Isaias Correia</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">É cada uma. Será que é verdade mesmo? Vou testar se for mentira eu volto aqui pra falar viu</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>66</likes>
-                          
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <!-- Botão 2 -->
-            <div id="cta2" class="mt-4 d-none">
-              <a href="https://pay.kiwify.com.br/dj2J7Si" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">QUERO ELIMINAR A CALVÍCIE</span>
-                <span class="span-btn2">(atenção: vagas limitadas)</span>
-              </a>
-            </div>
+  <!-- Termos de Uso e Política de Privacidade -->
+            <div class="text-white mt-4"><a href="termos.html" class="text-white">Sobre Nós</a> | <a href="privacidade.html" class="text-white">Política de Reembolso</a></div>
           </div>
         </div>
       </div>
-    </section>
-
-    <footer class="bg-dark py-3 text-center">
-      <div class="text-white"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
-    </footer>
-
-    <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 1860000); // temporização da Call to Action (em milissegundos)
-    </script>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="./assets/js/com.js"></script>
-  </body>
+    </header>
+  <!-- Termos de Uso e Política de Privacidade -->
+            <div class="text-white mt-4"><a href="termos.html" class="text-white">Fale Conosco</a> | <a href="privacidade.html" class="text-white">Política de Envio</a></div>
+          </div>
+        </div>
+      </div>
+</body>
 </html>
