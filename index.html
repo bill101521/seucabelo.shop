@@ -12,6 +12,11 @@
             color: white;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
         }
         .esconder {
             display: none;
@@ -34,6 +39,11 @@
             .offer-text {
                 font-size: 14px;
             }
+        }
+        .videobox {
+            width: 100%;
+            max-width: 800px; /* Define uma largura máxima para o vídeo */
+            margin: 0 auto; /* Centraliza o vídeo horizontalmente */
         }
     </style>
 </head>
